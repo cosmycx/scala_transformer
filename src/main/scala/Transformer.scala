@@ -6,11 +6,11 @@ class Transformer(val t: Long) {
 
     def transform(): Long = {
 
-        val t0 = System.currentTimeMillis()
+        val t0 = System.currentTimeMillis
 
         Thread.sleep(t)  
 
-        System.currentTimeMillis() - t0 
+        System.currentTimeMillis - t0 
 
 
     } // .transform
